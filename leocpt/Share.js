@@ -17,3 +17,8 @@ shareToWeiXin:function()
                 //_report('timeline', res.err_msg);
             });
 };
+
+
+shareToFaceBook : function () {
+        window.open("http://www.facebook.com/sharer.php?u=" + encodeURIComponent(location.href)+"&t="+encodeURIComponent("plane"),"sharer","toolbar=0,status=0,width=626,height=436")
+}
